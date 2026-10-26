@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Комплектующие ПК</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">🖥 Комплектующие ПК</h1>
+        <p class="subtitle">Выберите категорию, затем нажмите кнопку внизу</p>
+
+        <div class="inner">
+            <div class="item">
+                <div class="icon">🔲</div>
+                <button class="btn" data-id="1" data-title="Процессор">Процессор</button>
+            </div>
+            <div class="item">
+                <div class="icon">🎮</div>
+                <button class="btn" data-id="2" data-title="Видеокарта">Видеокарта</button>
+            </div>
+            <div class="item">
+                <div class="icon">🧠</div>
+                <button class="btn" data-id="3" data-title="Оперативная память">Оперативная память</button>
+            </div>
+            <div class="item">
+                <div class="icon">🧩</div>
+                <button class="btn" data-id="4" data-title="Материнская плата">Материнская плата</button>
+            </div>
+            <div class="item">
+                <div class="icon">💾</div>
+                <button class="btn" data-id="5" data-title="Накопители">Накопители</button>
+            </div>
+            <div class="item">
+                <div class="icon">⚡</div>
+                <button class="btn" data-id="6" data-title="Блок питания">Блок питания</button>
+            </div>
+        </div>
+
+        <div class="usercard" id="usercard"></div>
+    </div>
+
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
